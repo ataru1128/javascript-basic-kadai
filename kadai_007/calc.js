@@ -1,25 +1,12 @@
-let num = Math.floor(Math.random() * 16);
+let num = Math.floor(Math.random() * 50);
 console.log(num);
-switch (num) {
-  case 3:
-    console.log('3の倍数です');
-    break;
-  case 5:
+
+if(num % 15 == 0) {
+  console.log('3と5の倍数です');
+}
+else if(num % 5 == 0) {
   console.log('5の倍数です');
-  break;  
-  case 6:
-    console.log('3の倍数です');
-    break;
-  case 9:
+}
+else if(num % 3 == 0) {
   console.log('3の倍数です');
-  break;  
-  case 10:
-    console.log('5の倍数です');
-    break;
-  case 12:
-    console.log('3の倍数です');
-    break;   
-  case 15:
-    console.log('3と5の倍数です')
-    break;
-  }
+}
