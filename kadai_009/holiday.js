@@ -3,8 +3,8 @@ for(let i = 0; i< 16; i++){
   console.log(holidays[i]);
 }
 
-let i = 1;
-while(i < holidays){
+let i = 0;
+while(i <16){
   console.log(holidays[i]);
   i++;
 }
